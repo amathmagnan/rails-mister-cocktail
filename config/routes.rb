@@ -2,10 +2,11 @@ Rails.application.routes.draw do
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-resources :cocktails do
-  #creer new et create pour doses
-  resources :doses, only: %i[new create]
+
+
+   resources :cocktails, only: [:index, :show]
+  #resources :doses, only: %i[new create]
 end
 
-resources :doses, only: :destroy
-end
+#resources :doses, only: :destroy
+#end

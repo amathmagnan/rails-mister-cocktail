@@ -1,6 +1,14 @@
 <h1>Cocktail</h1>
 
 
-<p> test equation page cocktails </p>
+<p></p>
 
-<%= 1 + 1 %>
+
+
+<% @cocktails.each do |cocktail| %>
+
+ <li> <%= @cocktails.name %> </li>
+ <%= link_to "show vers #{cocktail.name}", cocktail_path(cocktail)%>
+  <% end %>
+
+

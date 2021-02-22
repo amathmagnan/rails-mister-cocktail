@@ -9,7 +9,7 @@ def new
 end
 
 def show
-  @cocktails = Cocktail.all
+  @cocktail = Cocktail.find(params[:id])
 end
 
 def create

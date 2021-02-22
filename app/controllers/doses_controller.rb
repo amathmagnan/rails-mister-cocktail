@@ -7,7 +7,7 @@ def index
 end
 
 def new
-  @dose = Dose.all
+
 end
 
 def show
