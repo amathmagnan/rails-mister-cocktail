@@ -5,10 +5,8 @@
 by our international bartenders </p>
 
 
-<%= @article.photos.each do |photo| %>
 <%= cl_image_tag("https://images.pexels.com/photos/1189257/pexels-photo-1189257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", alt:"Men-pouring-mojito-cocktail",
       width: 600, height: 500, crop: :fill) %>
-
 
 
 <br>
@@ -19,3 +17,4 @@ by our international bartenders </p>
 <br>
 
 <%= link_to 'Back to Cocktails', root_path %>
+
