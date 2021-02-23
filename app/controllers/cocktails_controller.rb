@@ -6,6 +6,7 @@ def index
 end
 
 def new
+  #@cocktail = Cocktail.find(params[:id])
 end
 
 def show

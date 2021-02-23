@@ -1,13 +1,21 @@
 <h1> Mojito</h1>
 
 
-<p>(cocktail page show)</p>
+<p>Discover our tasty mojitos made with love <br>
+by our international bartenders </p>
 
 
-<%= cl_image_tag("https://images.pexels.com/photos/1189257/pexels-photo-1189257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", alt:"Cocktail-francisco",
+<%= @article.photos.each do |photo| %>
+<%= cl_image_tag("https://images.pexels.com/photos/1189257/pexels-photo-1189257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", alt:"Men-pouring-mojito-cocktail",
       width: 600, height: 500, crop: :fill) %>
 
 
+
+<br>
+<br>
+
 <%= @cocktail.name %>
 
+<br>
 
+<%= link_to 'Back to Cocktails', root_path %>
