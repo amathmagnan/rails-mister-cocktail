@@ -30,8 +30,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
+gem 'nokogiri'
+gem 'rest-client'
+gem 'rack'
 gem 'cloudinary', '~> 1.16.0'
-
 
 
 group :development, :test do

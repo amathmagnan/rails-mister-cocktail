@@ -5987,6 +5987,11 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
+rack@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/rack/-/rack-0.1.6.tgz#9a9ea6cdf50a1c7d5f3d64385a90339c03dcc98b"
+  integrity sha1-mp6mzfUKHH1fPWQ4WpAznAPcyYs=
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -6173,7 +6178,7 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-request@^2.87.0, request@^2.88.0:
+request@>0.0.1, request@^2.87.0, request@^2.88.0:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
@@ -6251,6 +6256,14 @@ resolve@^1.1.7, resolve@^1.10.0, resolve@^1.12.0:
   dependencies:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
+
+rest-client@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/rest-client/-/rest-client-0.1.5.tgz#667739b948b7bb84dcc9096ece33217c18662d47"
+  integrity sha1-Znc5uUi3u4TcyQluzjMhfBhmLUc=
+  dependencies:
+    request ">0.0.1"
+    underscore "1.3.3"
 
 ret@~0.1.10:
   version "0.1.15"
@@ -7153,6 +7166,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+underscore@1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.3.3.tgz#47ac53683daf832bfa952e1774417da47817ae42"
+  integrity sha1-R6xTaD2vgyv6lS4XdEF9pHgXrkI=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
